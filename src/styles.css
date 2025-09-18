@@ -1,0 +1,37 @@
+
+        /* Estilos para animação de scroll */
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Estilos para ícones de redes sociais */
+        .social-icon {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 40px; height: 40px; border-radius: 8px;
+            background-color: #F8F9FA; color: #495057;
+            transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+        .social-icon:hover {
+            transform: translateY(-3px); color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .social-icon.facebook:hover { background-color: #1877F2; }
+        .social-icon.instagram:hover { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .social-icon.linkedin:hover { background-color: #0A66C2; }
+        .social-icon.x-twitter:hover { background-color: #000000; }
+
+        .social-icon-footer {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 36px; height: 36px; border-radius: 8px;
+            background-color: #495057; color: #F8F9FA;
+            transition: all 0.3s ease;
+        }
+        .social-icon-footer:hover {
+            background-color: #ADB5BD; color: #343A40;
+        }
